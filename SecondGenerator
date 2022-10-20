@@ -1,0 +1,5 @@
+ #prints the total amount of seconds given the hours, minutes, and seconds function parameters
+ def print_seconds(hours, minutes, seconds):
+    print(str(hours*3600+minutes*60+seconds)+str(" seconds have elapsed"))
+
+print_seconds(1,2,3)
